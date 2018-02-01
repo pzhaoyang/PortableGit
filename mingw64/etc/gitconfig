@@ -1,6 +1,7 @@
 [core]
 	symlinks = false
 	autocrlf = true
+	quotepath = false
 [color]
 	diff = auto
 	status = auto
@@ -23,3 +24,14 @@
 	required = true
 [credential]
 	helper = manager
+[user]
+	name = WranglerPENG
+	email = pzhaoyang@126.com
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	ci = commit
+	unstage = reset HEAD
+	last = log -1
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
